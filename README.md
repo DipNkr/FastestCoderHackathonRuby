@@ -38,7 +38,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the [MIT License](LICENSE).
 
 ----------------------------------------------
-**USING GITHUB - CO PILOT TO BUILD THIS CODE**
+**USING GITHUB - COPILOT TO BUILD THIS CODE**
 ----------------------------------------------
 From writing the Sinatra routes, it suggested code snippets for handling form submissions and URL redirection. 
 It also helped us with generating unique short URLs and provided suggestions for managing the data store.
@@ -82,21 +82,21 @@ Data Store (Key-Value Store): This component stores the mappings between long an
 Technology/Library Used
 -----------------------
 
-Backend:-
-  RUBY
-  SINATRA
-  REDIS
-  SECURERANDOM
-Frontend:-
-  HTML
-  BOOTSTRAP
-  JAVASCRIPT
+# Backend:-
+  1. RUBY
+  2. SINATRA
+  3. REDIS
+  4. SECURERANDOM
+# Frontend:-
+  1. HTML
+  2. BOOTSTRAP
+  3. JAVASCRIPT
 
 ----------------------------------
 Screenshots of The Working Project
 ----------------------------------
+# Home Page
+![image](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/de49ac1f-3f71-459a-8277-daf6ba3e90ec)
 
-
-
-
-
+# Result Page
+![image](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/bb865c7a-006a-484d-8e14-c133fb3a3a35)
