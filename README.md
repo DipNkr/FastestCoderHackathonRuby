@@ -11,7 +11,8 @@ To run the URL shortener service locally, follow these steps:
 
 1. Clone the repository:
 2. Install the required dependencies:
-3. Start the application:
+3. Start Redis Server:
+4. Start the application:
 
 The application should now be running on `http://localhost:4567`.
 
@@ -40,8 +41,17 @@ This project is licensed under the [MIT License](LICENSE).
 ----------------------------------------------
 **USING GITHUB - COPILOT TO BUILD THIS CODE**
 ----------------------------------------------
-From writing the Sinatra routes, it suggested code snippets for handling form submissions and URL redirection. 
-It also helped us with generating unique short URLs and provided suggestions for managing the data store.
+GitHub Copilot assisted this project in several ways:
+
+URL shortening algorithm: GitHub Copilot has provided suggestions and code snippets for implementing the URL shortening algorithm itself. It can help with generating unique short URLs, handling collisions, and ensuring the generated URLs are valid.
+
+User input handling: GitHub Copilot has suggested code snippets for handling user input, such as parsing and validating the long URLs provided by users. It assisted in implementing the necessary validation checks and error handling.
+
+Data store management: GitHub Copilot provided suggestions for managing the data store used to store the mappings between long and short URLs.
+
+By leveraging GitHub Copilot's suggestions, we likely saved time and effort during the development process. It provided accurate code completions and suggestions based on the context, enabling us to focus on the higher-level logic of your application rather than spending time on boilerplate or repetitive code.
+
+Using GitHub Copilot's assistance help write code more efficiently and effectively, allowing us to complete this project more quickly and with fewer errors. It enhanced our development experience and contributed to a smoother submission process by providing reliable code suggestions throughout the project's implementation.
 
 --------------------
 Architecture Diagram
