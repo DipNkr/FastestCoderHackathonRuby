@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>URL Shortner Service | Fastest Coder Hackathon | Team Aafat</title>
+    <title>URL Shortener Service | Fastest Coder Hackathon | Team Aafat</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
@@ -35,7 +35,7 @@
 
     <!--============= Banner Section Starts Here =============-->
     <section class="banner-section">
-        <div class="banner-bg bg_img" data-background="./assets/images/banner/banner-bg.jpg">
+        <div class="banner-bg bg_img">
             <div class="banner-bg-shape"><img src="./assets/images/banner/banner-shape.png" alt="banner"></div>
             <div class="round-1">
                 <img src="./assets/images/banner/01.png" alt="banner">
@@ -46,15 +46,29 @@
         </div>
         <div class="container">
             <div class="banner-content">
-                <h3 class="cate" style="color: #414785;">This is Your Shortened URL</h3>
-                <p style="color: #414785;"><a href="/<%= short_url %>" style="color: red" active><%= request.base_url %>/<%= short_url %></a><br>Fastest Coder Hackathon<br>This is made by Nasif and Dipankar - Team Aafat</p>
+                <h2 class="cate" style="color: #414785;">This is Your Shortened URL</h2>
+                <br><br>
+                <h3 style="color: #414785;"><a href="/<%= short_url %>" style="color: #0A0A23" target="_blank" rel="noopener noreferrer" active><%= request.base_url %>/<%= short_url %></a></h3>
+                <br><br>
+                <h3 style="color: #414785;">Fastest Coder Hackathon<br>This is made by Nasif and Dipankar - Team Aafat
+                <br><br>
+                <center>
+                <form class="banner-form" style="justify-content:center; display: flex;" action="/">
+                    <button type="submit">Back</button>
+                </form>    
+                </center></h3>
+
             </div>
+
+            
+            
+
         </div>
     </section>
     <!--============= Banner Section Ends Here =============-->
 
     <!--============= Feature Section Starts Here =============-->
-    <section class="feature-section padding-top oh padding-bottom pb-lg-half bg_img pos-rel" data-background="./assets/images/feature/feature-bg.jpg">
+    <section class="feature-section padding-top oh padding-bottom pb-lg-half bg_img pos-rel">
         <div class="top-shape d-none d-md-block">
             <img src="./assets/css/img/top-shape.png" alt="css">
         </div>
@@ -215,7 +229,7 @@
             <div class="footer-bottom">
                 <div class="footer-bottom-area">
                     <div class="left cl-white">
-                        <p>&copy; Copyright 2023 | <a href="#0">USS (URL SHORTNER SERVICE)</a> By Fastest Coder Hackathon Team Aafat</p>
+                        <p>&copy; Copyright 2023 | <a href="#0">USS (URL SHORTENER SERVICE)</a> By Fastest Coder Hackathon Team Aafat</p>
                     </div>
                     <ul class="social-icons">
                         <li>
