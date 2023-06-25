@@ -12,12 +12,16 @@ end
 # Handle POST requests to the '/shorten' URL
 post '/shorten' do
   long_url = params[:long_url]  # Get the long URL from the request parameters
-  short_url = generate_short_url  # Generate a unique short URL
+  substrings = ["http","https","HTTP","HTTPS"]
 
-  # Store the mapping in Redis
-  redis.set("url:#{short_url}", long_url)
-
-  erb :shortened, locals: { short_url: short_url }  # Render the shortened.erb file
+  if substrings.any? { |substring| long_url.include?(substring) }
+    short_url = generate_short_url  # Generate a unique short URL
+    # Store the mapping in Redis
+    redis.set("url:#{short_url}", long_url)
+    erb :shortened, locals: { short_url: short_url }  # Render the shortened.erb file
+  else
+    erb :not_found  # Render the not_found.erb file
+  end
 end
 
 # Handle GET requests to the '/:short_url' URL
