@@ -106,7 +106,7 @@ Technology/Library Used
 Screenshots and Videos of The Working Project
 ----------------------------------
 # Home Page
-![screencapture-localhost-4567-shorten-2023-06-25-11_16_04](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/837bee5b-f579-4c4e-b826-0e7439e1c01e)
+![screencapture-localhost-4567-2023-06-25-11_15_42](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/135b30f3-7f06-4071-8800-20b187a2df5b)
 
 # Shorten Page - After Clicking on the Shorten will be directed here.
 ![screencapture-localhost-4567-shorten-2023-06-25-11_16_04](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/15975a62-c666-44ee-8251-1c709b052ef2)
