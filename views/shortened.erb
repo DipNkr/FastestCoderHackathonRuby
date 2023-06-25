@@ -36,7 +36,7 @@
     <!--============= Banner Section Starts Here =============-->
     <section class="banner-section">
         <div class="banner-bg bg_img">
-            <div class="banner-bg-shape"><img src="./assets/images/banner/banner-shape.png" alt="banner"></div>
+            <div class="banner-bg-shape"></div>
             <div class="round-1">
                 <img src="./assets/images/banner/01.png" alt="banner">
             </div>
@@ -48,7 +48,9 @@
             <div class="banner-content">
                 <h2 class="cate" style="color: #414785;">This is Your Shortened URL</h2>
                 <br><br>
+                <div class="container bg-light">
                 <h3 style="color: #414785;"><a href="/<%= short_url %>" style="color: #0A0A23" target="_blank" rel="noopener noreferrer" active><%= request.base_url %>/<%= short_url %></a></h3>
+                </div>
                 <br><br>
                 <h3 style="color: #414785;">Fastest Coder Hackathon<br>This is made by Nasif and Dipankar - Team Aafat
                 <br><br>
