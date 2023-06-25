@@ -86,7 +86,7 @@ Web Application: This component handles user requests and responses. It is respo
 
 URL Shortener Business Logic: This component contains the core functionality of the URL shortener service. It takes care of generating unique short URLs, storing the mappings between long and short URLs, and retrieving the original long URL when given a short URL.
 
-Data Store (Key-Value Store): This component stores the mappings between long and short URLs. It can be implemented using a key-value store, such as Redis or a database like PostgreSQL. The data store allows efficient retrieval of the original long URL based on a given short URL.
+Data Store (Key-Value Store): This component stores the mappings between long and short URLs. It can be implemented using a key-value store, such as Redis, or a database like PostgreSQL. The data store allows efficient retrieval of the original long URL based on a given short URL.
 
 -----------------------
 Technology/Library Used
@@ -103,11 +103,20 @@ Technology/Library Used
   3. JAVASCRIPT
 
 ----------------------------------
-Screenshots of The Working Project
+Screenshots and Videos of The Working Project
 ----------------------------------
 # Home Page
-![image](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/de49ac1f-3f71-459a-8277-daf6ba3e90ec)
+![screencapture-localhost-4567-shorten-2023-06-25-11_16_04](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/837bee5b-f579-4c4e-b826-0e7439e1c01e)
 
-# Result Page
-![screencapture-localhost-4567-shorten-2023-06-24-18_08_35](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/394d0604-8616-4bd5-8792-e5d1938119c6)
+# Shorten Page - After Clicking on the Shorten will be directed here.
+![screencapture-localhost-4567-shorten-2023-06-25-11_16_04](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/15975a62-c666-44ee-8251-1c709b052ef2)
 
+# Not Found Page - If the Link is wrong  then it will redirect to this
+![screencapture-localhost-4567-shorten-2023-06-25-11_16_25](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/31a1da9c-1ccd-4dbb-924a-30b114d84787)
+
+# Video of The Working Model
+[New Tab.webm](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/7134b327-b256-4e96-971e-a64cfc8d501a)
+
+This Model is Completely Responsive.
+# Video of Working Model showcasing responsiveness. 
+[Google.webm](https://github.com/Fastest-Coder-First/Ruby-URL-Shortner-Service-by-Team-Aafat/assets/36267825/3a631b73-1491-4ad0-b280-c4ce5d6d45aa)
