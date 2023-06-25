@@ -12,7 +12,7 @@ end
 # Handle POST requests to the '/shorten' URL
 post '/shorten' do
   long_url = params[:long_url]  # Get the long URL from the request parameters
-  substrings = ["http","https","HTTP","HTTPS"]
+  substrings = ["http","https","HTTP","HTTPS"] # Condition check for HTTP
 
   if substrings.any? { |substring| long_url.include?(substring) }
     short_url = generate_short_url  # Generate a unique short URL
